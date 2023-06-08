@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/checkmyaim-web/static/css/main.e6c13ad2.css",
+    "main.js": "/checkmyaim-web/static/js/main.3f4a5034.js",
+    "index.html": "/checkmyaim-web/index.html",
+    "main.e6c13ad2.css.map": "/checkmyaim-web/static/css/main.e6c13ad2.css.map",
+    "main.3f4a5034.js.map": "/checkmyaim-web/static/js/main.3f4a5034.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3f4a5034.js"
+  ]
+}
