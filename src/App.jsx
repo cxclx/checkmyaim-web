@@ -1,12 +1,14 @@
-import './App.scss'
+import './App.scss';
+import Header from './components/header/Header'
+import Landing from './components/landing/Landing'
 
 function App() {
-
   return (
-    <>
-      <canvas id='myThreeJsCanvas' />
-    </>
-  )
+    <div className="App">
+      <Header/>
+      <Landing/>
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,33 @@
+@use "../../_base";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+
+  ul {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    li {
+      margin: 0 2rem;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      white-space: nowrap;
+
+      &.login {
+        margin: 0 0rem 0 5rem;
+        border: 2px solid white;
+        border-radius: 10px;
+      }
+    }
+  }
+  h1 {
+    font-weight: 600;
+  }
+}
