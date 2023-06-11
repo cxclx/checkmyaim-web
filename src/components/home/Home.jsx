@@ -1,8 +1,8 @@
-import styles from "./Landing.module.scss";
+import styles from "./Home.module.scss";
 import Button from "../button/Button";
 import Jett from "../../assets/img/jett.png";
 
-function Landing() {
+function Home() {
   return (
     <div className={styles.landing}>
       <div className={styles.landingContainer}>
@@ -22,4 +22,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default Home;

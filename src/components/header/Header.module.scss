@@ -6,6 +6,17 @@ header {
   align-items: center;
   padding: 1.5rem 5rem;
 
+  img {
+    width: 3rem;
+    object-fit: cover;
+    cursor: pointer;
+    transition: ease-out 0.2s transform;
+
+    &:hover {
+      transform: scale(1.2) rotate(-180deg);
+    }
+  }
+
   ul {
     display: flex;
     align-items: center;
