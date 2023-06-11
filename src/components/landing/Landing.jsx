@@ -1,6 +1,6 @@
 import styles from "./Landing.module.scss";
 import Button from "../button/Button";
-import Jett from "../../assets/img/jett.png"
+import Jett from "../../assets/img/jett.png";
 
 function Landing() {
   return (

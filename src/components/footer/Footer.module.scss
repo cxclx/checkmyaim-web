@@ -1,0 +1,14 @@
+@use "../../_base";
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 5rem 0;
+
+    span {
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
