@@ -25,7 +25,14 @@
     background-color: rgba(100, 100, 100, 0.1);
     backdrop-filter: blur(50px);
     border-radius: 20px;
+    transition: 0.2s ease-out;
+    cursor: pointer;
     filter: drop-shadow(0 15px 5px rgba(0, 0, 0, 0.5));
+
+    &:hover {
+      transform: scale(1.05);
+      filter: drop-shadow(0 35px 25px rgba(0, 0, 0, 0.5));
+    }
 
     h1 {
       font-size: 4rem;
