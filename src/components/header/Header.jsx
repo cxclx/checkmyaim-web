@@ -14,7 +14,7 @@ function Header() {
           <li>Premium</li>
           <li>Contact</li>
           <Link to={'/login'}>
-          <li className={styles.login}>Sign Up</li>
+          <li className={styles.login}>Log In</li>
           </Link>
         </ul>
       </nav>

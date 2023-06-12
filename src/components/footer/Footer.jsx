@@ -1,4 +1,5 @@
 import styles from "./Footer.module.scss";
+import Certificate from "../../assets/img/bnetza__2.png";
 
 function Footer() {
   return (
@@ -9,7 +10,13 @@ function Footer() {
         <li></li>
       </ul>
 
-      <span>©2023 CheckMyAim.</span>
+      <div className={styles.Certificate}>
+        <img src={Certificate} alt="Certificate" />
+      </div>
+
+      <div className={styles.Copyright}>
+        <span>©2023 CheckMyAim.</span>
+      </div>
     </footer>
   );
 }

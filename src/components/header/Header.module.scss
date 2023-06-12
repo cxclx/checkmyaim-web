@@ -9,7 +9,7 @@ header {
   img {
     width: 3rem;
     cursor: pointer;
-    transition: ease-out 0.2s transform;
+    transition: ease-out 0.4s transform;
 
     &:hover {
       transform: scale(1.2) rotate(-180deg);

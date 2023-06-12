@@ -1,14 +1,27 @@
 @use "../../_base";
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  padding: 1.5rem 0;
+
+  .Certificate {
+    img {
+        width: 10rem;
+        margin: 0 2rem;
+        filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
+      }
+  }
+
+  .Copyright {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding: 5rem 0;
+    margin: 2rem auto;
 
     span {
-        font-weight: bold;
-        letter-spacing: 1px;
+      letter-spacing: 1px;
     }
+  }
 }
