@@ -1,24 +1,17 @@
-import { useEffect, useState } from "react";
+import axios from "axios";
+import { useEffect } from "react";
 
 function Fetch() {
-  const [backendData, setBackendData] = useState([{}]);
   useEffect(() => {
-    fetch("/api")
-      .then((response) => response.json())
-      .then((data) => {
-        setBackendData(data);
+    axios
+      .get("http://localhost:5000/api")
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
       });
   }, []);
-
-  return (
-    <div>
-      {typeof backendData.users === "undefined" ? (
-        <p>Loading...</p>
-      ) : (
-        backendData.users.map((user, i) => <p key={i}>{user}</p>)
-      )}
-    </div>
-  );
 }
 
 export default Fetch;

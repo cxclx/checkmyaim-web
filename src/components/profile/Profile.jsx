@@ -1,5 +1,5 @@
-import Fetch from "../api/fetch";
 import styles from "./Profile.modules.scss";
+import Fetch from "../api/fetch";
 
 function Profile() {
   return (
