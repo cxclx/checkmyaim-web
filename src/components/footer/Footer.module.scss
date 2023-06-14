@@ -6,19 +6,18 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: transparent;
-  padding: 1.5rem 0;
+  padding: 4rem 0 0 0;
 
   .Dev {
     img {
         width: 12rem;
-        margin: 0 2rem;
         filter: drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5));
       }
   }
 
   .Copyright {
     display: flex;
-    margin: 2rem auto;
+    margin: 1rem auto;
 
     span {
       letter-spacing: 1px;
