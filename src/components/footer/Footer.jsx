@@ -1,5 +1,5 @@
 import styles from "./Footer.module.scss";
-import Certificate from "../../assets/img/bnetza__2.png";
+import Dev from "../../assets/img/devingermany.png";
 
 function Footer() {
   return (
@@ -10,8 +10,8 @@ function Footer() {
         <li></li>
       </ul>
 
-      <div className={styles.Certificate}>
-        <img src={Certificate} alt="Certificate" />
+      <div className={styles.Dev}>
+        <img src={Dev} alt="Dev" />
       </div>
 
       <div className={styles.Copyright}>
