@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import Login from "./components/login/Login";
 import Signup from "./components/signup/Signup";
 import Profile from "./components/profile/Profile";
+import Mesh from "./components/mesh/Mesh";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
+      <Mesh />
     </Router>
   );
 }
