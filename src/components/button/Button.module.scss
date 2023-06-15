@@ -24,7 +24,6 @@ button {
 
   &.Secondary {
     border: 2px solid white;
-    filter: drop-shadow(0px 2px 4px rgb(0, 0, 0));
     transition: ease-out 0.2s filter, 0.5s background, 0.5s color;
     background: linear-gradient(to right, white 50%, transparent 50%);
     background-position: right bottom;
