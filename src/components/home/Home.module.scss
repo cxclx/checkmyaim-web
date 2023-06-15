@@ -27,7 +27,7 @@
     border-radius: 20px;
     transition: 0.2s ease-out;
     cursor: pointer;
-    box-shadow:0 8px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
 
     &:hover {
       background-color: rgba(100, 100, 100, 0.15);
@@ -48,4 +48,35 @@
 .button__container {
   display: flex;
   width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .landing {
+    width: 100%;
+    height: unset;
+    margin: 5rem 0;
+
+    img {
+      display: none;
+    }
+
+    &Container {
+      margin: 0 auto;
+      width: 25rem;
+      height: 20rem;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    Button {
+      padding: 1rem;
+    }
+  }
 }

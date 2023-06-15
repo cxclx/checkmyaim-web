@@ -16,7 +16,7 @@ header {
     }
   }
 
-  ul {
+  .Menu {
     display: flex;
     align-items: center;
     text-transform: uppercase;
@@ -54,5 +54,49 @@ header {
   }
   h1 {
     font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    padding: 1rem;
+    .Menu {
+      display: none;
+    }
+  }
+
+  .BurgerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    .Burger {
+      width: 25px;
+      height: 2px;
+      margin: 0.2rem;
+      border-radius: 3px;
+      background-color: white;
+    }
+  }
+
+  .Open {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+    z-index: 999;
+    margin: 5rem 0;
+
+    li {
+      text-align: center;
+      padding: 1rem;
+      width: 100%;
+    }
   }
 }
