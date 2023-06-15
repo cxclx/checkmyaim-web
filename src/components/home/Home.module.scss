@@ -61,9 +61,10 @@
     }
 
     &Container {
+      display: flex;
       margin: 0 auto;
-      width: 25rem;
-      height: 20rem;
+      width: 20rem;
+      height: 30rem;
       padding: 2rem;
     }
 
@@ -75,8 +76,15 @@
       font-size: 1rem;
     }
 
-    Button {
-      padding: 1rem;
+    .button__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between!important;
+
+      Button {
+        padding: 0.5rem 1rem;
+        margin: 1rem;
+      }
     }
   }
 }
