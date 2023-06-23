@@ -1,12 +1,12 @@
 import styles from "./Home.module.scss";
 import Button from "../button/Button";
-import Jett from "../../assets/img/jett.png";
+import Jett from "../../assets/img/tesst.png";
 
 function Home() {
   return (
     <div className={styles.landing}>
       <div className={styles.landingContainer}>
-        <h1>Lorem ipsum in Crosshair Valorant</h1>
+        <h1>Lorem ipsum in Lorem Ipsum</h1>
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
