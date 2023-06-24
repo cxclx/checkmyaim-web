@@ -2,9 +2,12 @@
 
 https://cxclx.github.io/checkmyaim-web/
 
-# React App
+# Frontend
 
-SCSS
+React
+
+# API
+
 Axios
 
 # Database
