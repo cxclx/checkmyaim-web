@@ -1,6 +1,6 @@
 import styles from "./Home.module.scss";
 import Button from "../button/Button";
-import Jett from "../../assets/img/tesst.png";
+import Jett from "../../assets/img/jett.png";
 
 function Home() {
   return (
