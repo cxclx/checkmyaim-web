@@ -20,7 +20,6 @@ function Login() {
       // Save token in localStorage
       localStorage.setItem("jwtToken", token);
       axios.defaults.headers.common["Authorization"] = "Bearer " + token;
-      console.log(res.data); // "Logged in successfully"
     } catch (error) {
       console.error(error);
     }
