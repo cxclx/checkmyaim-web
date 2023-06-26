@@ -18,7 +18,10 @@ function Header() {
   return (
     <header className={styles}>
       <Link to={"/"}>
-        <img src={Logo} alt="Logo" />
+        <div className={styles.title}>
+          <img src={Logo} alt="Logo" />
+          <h1>CMA</h1>
+        </div>
       </Link>
       <nav>
         <ul className={styles.Menu}>
@@ -26,7 +29,7 @@ function Header() {
             <li>App</li>
           </Link>
           <Link to={"/premium"}>
-          <li className={styles.premium}>Premium</li>
+            <li className={styles.premium}>Premium</li>
           </Link>
           <Link to={"/login"}>
             <li className={styles.login}>Log In</li>

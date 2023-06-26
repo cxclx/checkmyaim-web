@@ -6,13 +6,25 @@ header {
   align-items: center;
   padding: 1.5rem 5rem;
 
-  img {
-    width: 3rem;
-    cursor: pointer;
-    transition: ease-out 0.4s transform;
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-    &:hover {
-      transform: scale(1.2) rotate(-180deg);
+    h1 {
+      font-family: AirStrike;
+      margin: 0 1rem;
+    }
+
+    img {
+      width: 3rem;
+      cursor: pointer;
+      transition: ease-out 0.4s transform;
+
+      &:hover {
+        transform: scale(1.2) rotate(-180deg);
+      }
     }
   }
 

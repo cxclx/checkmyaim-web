@@ -9,10 +9,18 @@ footer {
   padding: 4rem 0 0 0;
 
   .Dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    h1 {
+      font-family: AirStrike;
+    }
     img {
-        width: 12rem;
-        filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
-      }
+      margin: 0 1rem;
+      width: 12rem;
+      filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+    }
   }
 
   ul {

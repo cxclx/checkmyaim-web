@@ -6,6 +6,7 @@ function Footer() {
   return (
     <footer className={styles}>
       <div className={styles.Dev}>
+        <h1>CMA</h1>
         <img src={Dev} alt="Dev" />
       </div>
 
