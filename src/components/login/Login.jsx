@@ -3,10 +3,12 @@ import Button from "./../button/Button";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
   const [usernameOrEmail, setUsernameOrEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const login = async (event) => {
     event.preventDefault();
@@ -20,6 +22,7 @@ function Login() {
       // Save token in localStorage
       localStorage.setItem("jwtToken", token);
       axios.defaults.headers.common["Authorization"] = "Bearer " + token;
+      navigate("/redirect", { state: { action: "Logged In" } });
     } catch (error) {
       console.error(error);
     }

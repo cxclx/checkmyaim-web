@@ -22,9 +22,15 @@ function Header() {
       </Link>
       <nav>
         <ul className={styles.Menu}>
-          <li>Software</li>
+          <Link to={"/app"}>
+            <li>App</li>
+          </Link>
+          <Link to={"/premium"}>
           <li>Premium</li>
+          </Link>
+          <Link to={"/contact"}>
           <li>Contact</li>
+          </Link>
           <Link to={"/login"}>
             <li className={styles.login}>Log In</li>
           </Link>
