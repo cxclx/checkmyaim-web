@@ -1,8 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 
 import "./App.scss";
@@ -17,6 +13,10 @@ import Redirect from "./components/redirect/Redirect";
 import Software from "./pages/software/Software";
 import Premium from "./pages/premium/Premium";
 import Contact from "./pages/contact/Contact";
+import Imprint from "./pages/imprint/Imprint";
+import Tos from "./pages/tos/Tos";
+import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
+import RefundPolicy from "./pages/refund-policy/RefundPolicy";
 
 function App() {
   return (
@@ -31,6 +31,10 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/redirect" element={<Redirect />} />
+        <Route path="/Imprint" element={<Imprint />} />
+        <Route path="/Tos" element={<Tos />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/RefundPolicy" element={<RefundPolicy />} />
       </Routes>
       <Footer />
       <Mesh />

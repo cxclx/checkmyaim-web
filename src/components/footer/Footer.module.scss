@@ -15,6 +15,17 @@ footer {
       }
   }
 
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 1rem;
+    }
+  }
+
   .Copyright {
     display: flex;
     margin: 1rem auto;
