@@ -26,10 +26,7 @@ function Header() {
             <li>App</li>
           </Link>
           <Link to={"/premium"}>
-          <li>Premium</li>
-          </Link>
-          <Link to={"/contact"}>
-          <li>Contact</li>
+          <li className={styles.premium}>Premium</li>
           </Link>
           <Link to={"/login"}>
             <li className={styles.login}>Log In</li>
