@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/checkmyaim-web/static/css/main.0c6e7e7b.css",
-    "main.js": "/checkmyaim-web/static/js/main.baf48b01.js",
+    "main.css": "/checkmyaim-web/static/css/main.9b449162.css",
+    "main.js": "/checkmyaim-web/static/js/main.594c7d32.js",
     "static/media/jett.png": "/checkmyaim-web/static/media/jett.b7ff7a1a33c89af4127d.png",
     "static/media/logo.png": "/checkmyaim-web/static/media/logo.8739929ad5404bfac376.png",
     "index.html": "/checkmyaim-web/index.html",
-    "main.0c6e7e7b.css.map": "/checkmyaim-web/static/css/main.0c6e7e7b.css.map",
-    "main.baf48b01.js.map": "/checkmyaim-web/static/js/main.baf48b01.js.map"
+    "main.9b449162.css.map": "/checkmyaim-web/static/css/main.9b449162.css.map",
+    "main.594c7d32.js.map": "/checkmyaim-web/static/js/main.594c7d32.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c6e7e7b.css",
-    "static/js/main.baf48b01.js"
+    "static/css/main.9b449162.css",
+    "static/js/main.594c7d32.js"
   ]
 }
