@@ -12,6 +12,10 @@ header {
     justify-content: center;
     align-items: center;
 
+    &:hover img {
+      transform: scale(1.2) rotate(-180deg);
+    }
+
     h1 {
       font-family: AirStrike;
       margin: 0 1rem;
@@ -21,10 +25,6 @@ header {
       width: 3rem;
       cursor: pointer;
       transition: ease-out 0.4s transform;
-
-      &:hover {
-        transform: scale(1.2) rotate(-180deg);
-      }
     }
   }
 
