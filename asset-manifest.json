@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/checkmyaim-web/static/css/main.9b449162.css",
-    "main.js": "/checkmyaim-web/static/js/main.594c7d32.js",
+    "main.css": "/checkmyaim-web/static/css/main.79be91ce.css",
+    "main.js": "/checkmyaim-web/static/js/main.5ae355ed.js",
     "static/media/jett.png": "/checkmyaim-web/static/media/jett.b7ff7a1a33c89af4127d.png",
     "static/media/logo.png": "/checkmyaim-web/static/media/logo.8739929ad5404bfac376.png",
+    "static/media/airstrike.ttf": "/checkmyaim-web/static/media/airstrike.192a92c5c29bdd36bc83.ttf",
     "index.html": "/checkmyaim-web/index.html",
-    "main.9b449162.css.map": "/checkmyaim-web/static/css/main.9b449162.css.map",
-    "main.594c7d32.js.map": "/checkmyaim-web/static/js/main.594c7d32.js.map"
+    "main.79be91ce.css.map": "/checkmyaim-web/static/css/main.79be91ce.css.map",
+    "main.5ae355ed.js.map": "/checkmyaim-web/static/js/main.5ae355ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b449162.css",
-    "static/js/main.594c7d32.js"
+    "static/css/main.79be91ce.css",
+    "static/js/main.5ae355ed.js"
   ]
 }
