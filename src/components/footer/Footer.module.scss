@@ -15,6 +15,7 @@ footer {
     flex-direction: row;
     h1 {
       font-family: AirStrike;
+      cursor: default;
     }
     img {
       margin: 0 1rem;
@@ -40,6 +41,7 @@ footer {
 
     span {
       letter-spacing: 1px;
+      cursor: default;
     }
   }
 }
