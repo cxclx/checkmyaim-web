@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/checkmyaim-web/static/css/main.3bc8b109.css",
-    "main.js": "/checkmyaim-web/static/js/main.fac13f2b.js",
-    "static/media/tesst.png": "/checkmyaim-web/static/media/tesst.3a61063875a26c90b651.png",
+    "main.css": "/checkmyaim-web/static/css/main.1e5c2880.css",
+    "main.js": "/checkmyaim-web/static/js/main.7dcaed3e.js",
+    "static/media/jett.png": "/checkmyaim-web/static/media/jett.b7ff7a1a33c89af4127d.png",
     "static/media/logo.png": "/checkmyaim-web/static/media/logo.8739929ad5404bfac376.png",
     "index.html": "/checkmyaim-web/index.html",
-    "main.3bc8b109.css.map": "/checkmyaim-web/static/css/main.3bc8b109.css.map",
-    "main.fac13f2b.js.map": "/checkmyaim-web/static/js/main.fac13f2b.js.map"
+    "main.1e5c2880.css.map": "/checkmyaim-web/static/css/main.1e5c2880.css.map",
+    "main.7dcaed3e.js.map": "/checkmyaim-web/static/js/main.7dcaed3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bc8b109.css",
-    "static/js/main.fac13f2b.js"
+    "static/css/main.1e5c2880.css",
+    "static/js/main.7dcaed3e.js"
   ]
 }
