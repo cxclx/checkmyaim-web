@@ -20,7 +20,7 @@ function Signup() {
     }
 
     try {
-      await axios.post("http://2.59.134.208:5000/register", {
+      await axios.post("https://2.59.134.208:5000/register", {
         username,
         email,
         password,
