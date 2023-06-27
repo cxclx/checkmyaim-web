@@ -1,0 +1,18 @@
+@use "../../_base";
+
+.Profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10rem 0;
+
+  img {
+    width: 128px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    margin: 2rem 0;
+  }
+}

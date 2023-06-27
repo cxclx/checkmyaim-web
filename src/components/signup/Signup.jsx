@@ -1,6 +1,6 @@
 import styles from "./Signup.module.scss";
 import Button from "./../button/Button";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 
@@ -9,6 +9,7 @@ function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [repeatPassword, setRepeatPassword] = useState("");
+  const navigate = useNavigate();
 
   const register = async (event) => {
     event.preventDefault();
@@ -19,12 +20,12 @@ function Signup() {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/register", {
+      await axios.post("http://2.59.134.208:5000/register", {
         username,
         email,
         password,
       });
-      console.log(res.data); // "User registered"
+      navigate("/redirect", { state: { action: "Signed Up" } });
     } catch (error) {
       console.error(error);
     }

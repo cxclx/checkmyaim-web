@@ -9,7 +9,7 @@ function Home() {
       <div className={styles.landingContainer}>
         <h1>Valorant Aim Analyser: Perfect Your Gameplay</h1>
         <p>
-          Improove your VALORANT Aim with our AI-powered software,
+          Improve your VALORANT Aim with our AI-powered software,
           meticulously analyzing your aiming and crosshair placement from
           uploaded gameplay videos. Discover insightful evaluations on our
           user-friendly web app, fine-tune your gameplay, and become a more
