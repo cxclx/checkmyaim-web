@@ -14,7 +14,7 @@ function Login() {
     event.preventDefault();
 
     try {
-      const res = await axios.post("https://2.59.134.208:5000/login", {
+      const res = await axios.post("http://2.59.134.208:5000/login", {
         usernameOrEmail,
         password,
       });
