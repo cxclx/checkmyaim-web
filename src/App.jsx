@@ -17,6 +17,7 @@ import Imprint from "./pages/imprint/Imprint";
 import Tos from "./pages/tos/Tos";
 import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
 import RefundPolicy from "./pages/refund-policy/RefundPolicy";
+import NotFound from "./pages/404/NotFound";
 
 function App() {
   return (
@@ -31,10 +32,11 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/redirect" element={<Redirect />} />
-        <Route path="/Imprint" element={<Imprint />} />
-        <Route path="/Tos" element={<Tos />} />
-        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-        <Route path="/RefundPolicy" element={<RefundPolicy />} />
+        <Route path="/imprint" element={<Imprint />} />
+        <Route path="/tos" element={<Tos />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
       <Mesh />
