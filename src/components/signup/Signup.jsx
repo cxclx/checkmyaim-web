@@ -20,7 +20,7 @@ function Signup() {
     }
 
     try {
-      await axios.post("https://2.59.134.208:5000/register", {
+      await axios.post("https://api.loony-dev.com/register", {
         username,
         email,
         password,
